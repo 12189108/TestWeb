@@ -1,0 +1,78 @@
+body
+{
+  font-size: 40pt;
+  height:100%;
+  width:100%;
+  margin:0;
+  color:White;
+  background-repeat:no-repeat;
+  background-size:cover;
+  overflow:hidden;
+  background-attachment:fixed;
+}
+.Copyright-information{
+  position:fixed;
+  text-align:center;
+  width:100%;
+  bottom:0;
+  color:red;
+  font-size:10pt;
+}
+.login-box{
+ position:absolute;
+ width:40%;
+ text-align:center;
+ margin:auto;
+ transform:translateY(-50%);
+ left:0px;
+ right:0px;
+ padding:20px 50px;
+ background-color:#00000090;
+ top:50%;
+}
+.pwd{
+  margin-top:20px;
+}
+input{
+  padding:10px 15px;
+  background:#00000000;
+  border:0;
+  color:White;
+  border-bottom-color:White;
+  outline:none;
+  border-bottom-style:solid;
+  border-bottom-width:1px;
+}
+button{
+  margin-top:8%;
+  width:40%;
+  border-style:solid;
+  border-color:#ffffff;
+  height:40px;
+  font-size:20px;
+  color:White;
+  outline:none;
+  //圆角
+  border-radius:15px;
+  background:#00000000;
+  //设置字体粗细
+}
+button.hover{
+  margin-top:8%;
+  width:40%;
+  border-style:solid;
+  border-color:#ffffff;
+  height:40px;
+  font-size:20px;
+  color:Black;
+  outline:none;
+  //圆角
+  border-radius:15px;
+  background:#ffffff;
+
+}
+#center{
+  text-align:center;
+  margin-bottom:5%;
+  margin-top:5%;
+}
