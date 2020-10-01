@@ -71,6 +71,21 @@ button.hover{
   background:#ffffff;
 
 }
+button.active{
+  margin-top:8%;
+  width:40%;
+  border-style:solid;
+  border-color:#ffffff;
+  height:40px;
+  font-size:20px;
+  color:Black;
+  outline:none;
+  //圆角
+  border-radius:15px;
+  background:#ffffff;
+
+}
+
 #center{
   text-align:center;
   margin-bottom:5%;
