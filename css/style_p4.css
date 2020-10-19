@@ -1,0 +1,84 @@
+html{
+    overflow-y: scroll;
+    /*相对于默认字体大小*/
+}
+body{
+    background: white;
+}
+.container{
+    width: 800px;
+    margin: auto;
+    margin-top: 40px;
+    border: none;
+    display: none;
+    border-radius: 5px;
+    box-shadow:#9c9c9c 0 0 10px 0;
+}
+.title{
+    padding: 10px,15px;
+    background: linear-gradient(to right, #8ae68a,#5ccdde,#b221ff);
+    text-align: center;
+    height: 50px;
+    
+}
+.page2{
+    background-color: #4a9c4a;
+    width: 90%;
+    margin-top: 25px;
+    border-radius: 3px;
+    padding-bottom: 10px;
+}
+.test{
+    display: block;
+    border-radius: 8px;
+    background: #E74851;
+    text-decoration: none;
+    width: 80px;
+    height: 25px;
+    padding: 10px;
+    color: white;
+    line-height: 25px;
+    text-align: center;
+    font-weight: bold;
+    /*改变时段与属性目标*/
+    transition-property: all;
+    transition-duration: 0.3s;
+}
+.test:hover{
+    text-decoration: underline;
+    color: yellowgreen;
+    opacity: 0.8;
+    padding-top: 18px;
+}
+.container2{
+    height: 60px;
+    width: 120px;
+    overflow: hidden;
+    margin: auto;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    
+}
+p{
+    color: white;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+#icon{
+border: 2px solid #1281FF;
+margin-left: 3px;
+margin-right: 3px;
+width: 60px;
+height: 60px;
+margin-top: 10px;
+border-radius: 60px;
+}
+#hb{
+margin-top: 30px;
+width: 60%;
+}
+b{
+    margin: auto;
+    top: 30%;
+    position: relative;
+}
